@@ -4,7 +4,8 @@
   "description": "API REST Proyectos",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Angela",
   "license": "ISC",
@@ -13,5 +14,14 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^7.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelaMariaSuarezArenas/Contenerizacion_ProyectoDos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AngelaMariaSuarezArenas/Contenerizacion_ProyectoDos/issues"
+  },
+  "homepage": "https://github.com/AngelaMariaSuarezArenas/Contenerizacion_ProyectoDos#readme"
 }

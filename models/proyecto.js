@@ -10,16 +10,6 @@ const ProyectoSchema = Schema({
         type: String,
         required: [true, 'titulo requerido']
     },   
-    tipoProyecto: {
-        type: Schema.Types.ObjectId,
-        ref: 'TipoProyecto',
-        required: true
-    },
-    cliente: {
-        type: Schema.Types.ObjectId,
-        ref: 'Cliente',
-        required: true
-    },
     fechaIniciacion: {
         type: Date,
         default: new Date()
